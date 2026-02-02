@@ -1,4 +1,4 @@
-**This GitHub repo (<https://github.com/Genymobile/scrcpy>) is the only official
+**This GitHub repo (<https://github.com/mwakidenis/scrcpy>) is the only official
 source for the project. Do not download releases from random websites, even if
 their name contains `scrcpy`.**
 
@@ -26,7 +26,7 @@ It focuses on:
  - **user benefits**: no account, no ads, no internet required
  - **freedom**: free and open source software
 
-[lowlatency]: https://github.com/Genymobile/scrcpy/pull/646
+[lowlatency]: https://github.com/mwakidenis/scrcpy/pull/646
 
 Its features include:
  - [audio forwarding](doc/audio.md) (Android 11+)
@@ -66,7 +66,7 @@ In that case, you need to enable [an additional option][control] `USB debugging
 it using a keyboard and mouse. Rebooting the device is necessary once this
 option is set.
 
-[control]: https://github.com/Genymobile/scrcpy/issues/70#issuecomment-373286323
+[control]: https://github.com/mwakidenis/scrcpy/issues/70#issuecomment-373286323
 
 Note that USB debugging is not required to run scrcpy in [OTG mode](doc/otg.md).
 
@@ -166,7 +166,7 @@ documented in the following pages:
  - [Build instructions](doc/build.md)
  - [Developers](doc/develop.md)
 
-[wiki]: https://github.com/Genymobile/scrcpy/wiki
+[wiki]: https://github.com/mwakienis/scrcpy/wiki
 
 
 ## Articles
@@ -186,7 +186,7 @@ You can open an [issue] for bug reports, feature requests or general questions.
 For bug reports, please read the [FAQ](FAQ.md) first, you might find a solution
 to your problem immediately.
 
-[issue]: https://github.com/Genymobile/scrcpy/issues
+[issue]: https://github.com/mwakidenis/scrcpy/issues
 
 You can also use:
 
@@ -197,20 +197,18 @@ You can also use:
 
 ## Donate
 
-I'm [@rom1v](https://github.com/rom1v), the author and maintainer of _scrcpy_.
+I'm [mwakidenis](https://github.com/mwakidenis), the author and maintainer of _scrcpy_.
 
 If you appreciate this application, you can [support my open source
 work][donate]:
- - [GitHub Sponsors](https://github.com/sponsors/rom1v)
- - [Liberapay](https://liberapay.com/rom1v/)
- - [PayPal](https://paypal.me/rom2v)
+ - [GitHub Sponsors](https://github.com/sponsors/mwakidenis)
+  
 
-[donate]: https://blog.rom1v.com/about/#support-my-open-source-work
 
 ## License
 
     Copyright (C) 2018 Genymobile
-    Copyright (C) 2018-2026 Romain Vimont
+    Copyright (C) 2018-2026 mwakidenis
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
