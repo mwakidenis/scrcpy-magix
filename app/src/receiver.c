@@ -205,6 +205,10 @@ run_receiver(void *data) {
         }
 
         if (consumed) {
+            if ((size_t) consumed > head) {
+                error = true;
+                break;
+            }
             head -= consumed;
             // shift the remaining data in the buffer
             memmove(buf, &buf[consumed], head);
