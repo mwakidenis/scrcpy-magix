@@ -205,7 +205,7 @@ run_receiver(void *data) {
         }
 
         if (consumed) {
-            if ((size_t) consumed > head) {
+            if (consumed < 0 || (size_t) consumed > head) {
                 error = true;
                 break;
             }
