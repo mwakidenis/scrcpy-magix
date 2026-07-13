@@ -1280,7 +1280,7 @@ error:
 static struct option *
 sc_getopt_adapter_create_longopts(void) {
     struct option *longopts =
-        malloc((ARRAY_LEN(options) + 1) * sizeof(*longopts));
+        calloc(ARRAY_LEN(options) + 1, sizeof(*longopts));
     if (!longopts) {
         LOG_OOM();
         return NULL;
